@@ -17,7 +17,7 @@
 			"indentWidth": 2,
 			"quoteStyle": "double",
 			"quoteProperties": "asNeeded",
-			"semicolons": "asNeeded",
+			"semicolons": "always",
 			"trailingComma": "es5"
 		}
 	}
