@@ -9,7 +9,8 @@
 		"algo-01": "tsnd --respawn --transpile-only src/algorithms/01-ReverseString.ts",
 		"algo-02": "tsnd --respawn --transpile-only src/algorithms/02-Palindrome.ts",
 		"algo-03": "tsnd --respawn --transpile-only src/algorithms/03-FizzBuzz.ts",
-		"algo-04": "tsnd --respawn --transpile-only src/algorithms/04-FlattenArray.ts"
+		"algo-04": "tsnd --respawn --transpile-only src/algorithms/04-FlattenArray.ts",
+		"algo-05": "tsnd --respawn --transpile-only src/algorithms/05-Anagram.ts"
 	},
 	"keywords": [],
 	"author": {
