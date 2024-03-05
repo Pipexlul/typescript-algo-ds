@@ -11,7 +11,8 @@
 		"algo-03": "tsnd --respawn --transpile-only src/algorithms/03-FizzBuzz.ts",
 		"algo-04": "tsnd --respawn --transpile-only src/algorithms/04-FlattenArray.ts",
 		"algo-05": "tsnd --respawn --transpile-only src/algorithms/05-Anagram.ts",
-		"algo-06": "tsnd --respawn --transpile-only src/algorithms/06-MissingConsecutive.ts"
+		"algo-06": "tsnd --respawn --transpile-only src/algorithms/06-MissingConsecutive.ts",
+		"algo-07": "tsnd --respawn --transpile-only src/algorithms/07-BinarySearch.ts"
 	},
 	"keywords": [],
 	"author": {
