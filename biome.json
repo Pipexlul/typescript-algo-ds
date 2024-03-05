@@ -1,5 +1,8 @@
 {
 	"$schema": "https://biomejs.dev/schemas/1.5.3/schema.json",
+	"files": {
+		"include": ["**/*.ts", "**/*.json", "./*.js", "./*.mjs", "./*.cjs"]
+	},
 	"linter": {
 		"enabled": true,
 		"rules": {
@@ -14,7 +17,7 @@
 			"indentWidth": 2,
 			"quoteStyle": "double",
 			"quoteProperties": "asNeeded",
-			"semicolons": "always",
+			"semicolons": "asNeeded",
 			"trailingComma": "es5"
 		}
 	}
