@@ -2,12 +2,24 @@ import { SimpleLogger } from "../utils/logger";
 
 const logger = new SimpleLogger("FlattenArray");
 
+/**
+ * Flattens an array by removing nested arrays and returning a new flattened array.
+ *
+ * @param rootArray - The array to be flattened.
+ * @returns The flattened array.
+ */
 const flattenArrayMethod = (rootArray: unknown[]): unknown[] => {
   const flattened = rootArray.flat();
 
   return flattened;
 };
 
+/**
+ * Recursively flattens an array by removing nested arrays and returning a new flattened array.
+ *
+ * @param rootArray - The array to be flattened.
+ * @returns The flattened array.
+ */
 const flattenArrayRecursive = (rootArray: unknown[]): unknown[] => {
   const flattened: unknown[] = [];
 
@@ -22,6 +34,7 @@ const flattenArrayRecursive = (rootArray: unknown[]): unknown[] => {
   return flattened;
 };
 
+// TODO: FG: Move these to their own testing section later on
 const test1 = [5, 3, 2, 1, 7];
 const test2 = [5, 3, [11, 277], [55, 27, [200, 21], 2], [25]];
 

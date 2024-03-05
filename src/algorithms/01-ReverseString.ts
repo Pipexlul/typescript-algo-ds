@@ -4,7 +4,7 @@ const disableLogger = false;
 const logger = new SimpleLogger("REVERSE STRING", disableLogger);
 
 /**
- * @description - Reverse a string using core JavaScript methods
+ * Reverse a string using core JavaScript methods
  * @param str - String to be reversed
  * @returns - Reversed string
  */
@@ -13,7 +13,7 @@ const reverseStringMethods = (str: string): string => {
 };
 
 /**
- * @description - Reverse a string using a loop
+ * Reverse a string using a loop
  * @param str - String to be reversed
  * @returns - Reversed string
  */

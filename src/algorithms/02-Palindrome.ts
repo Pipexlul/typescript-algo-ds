@@ -2,6 +2,12 @@ import { SimpleLogger } from "../utils/logger";
 
 const logger = new SimpleLogger("PALINDROME");
 
+/**
+ * Determines whether a given string is a palindrome.
+ *
+ * @param str - The string to check for palindrome.
+ * @returns True if the string is a palindrome, false otherwise.
+ */
 const isPalindrome = (str: string): boolean => {
   const sanitizedStr = str.trim().toLowerCase();
   const strLen = sanitizedStr.length;
@@ -24,6 +30,7 @@ const isPalindrome = (str: string): boolean => {
   return true;
 };
 
+// TODO: FG: Move these to their own testing section later on
 logger.log("HowAreYou");
 logger.log(isPalindrome("HowAreYou"));
 
