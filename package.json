@@ -6,7 +6,8 @@
 	"scripts": {
 		"tsc": "tsc",
 		"clean": "rimraf ./dist",
-		"algo-01": "tsnd --respawn --transpile-only src/algorithms/01-ReverseString.ts"
+		"algo-01": "tsnd --respawn --transpile-only src/algorithms/01-ReverseString.ts",
+		"algo-02": "tsnd --respawn --transpile-only src/algorithms/02-Palindrome.ts"
 	},
 	"keywords": [],
 	"author": {
