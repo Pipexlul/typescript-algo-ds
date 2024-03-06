@@ -1,0 +1,17 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Debug w/ ts-node-dev",
+			"runtimeExecutable": "${workspaceFolder}/node_modules/.bin/ts-node-dev",
+			"runtimeArgs": [
+				"--respawn",
+				"--transpile-only",
+				"${workspaceFolder}/src/algorithms/08-LinkedList.ts"
+			],
+			"cwd": "${workspaceFolder}"
+		}
+	]
+}
